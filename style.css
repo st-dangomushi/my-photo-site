@@ -14,7 +14,8 @@ h3{
 span{font-size: 20px;
     font-weight:900;
     margin:1px;
-color:#000000 ;}
+color:#000000 
+;}
 
 a{
     text-decoration: none; 
@@ -57,12 +58,16 @@ body {
      margin: 0 auto; padding: 0;
     width: 80%; }
 
+
  #iroiro {
   background-color: #fceabb;
   background-image: linear-gradient(to bottom, #fceabb 0%, #fbdf93 31%, #fccd4d 55%, #f8b500 98%);
 }
 
-#iroiro img{border-radius:10px}
+ #iroiro img{border-radius:10px}
+
+ #dejikame {background-color:#ffffff}
+  
 
 
 
@@ -77,4 +82,9 @@ body {
 dt {
  font-size: 20px;
 }
+body {
+  background-color: #000000; 
 
+}
+footer {color: #ffffff;
+}
