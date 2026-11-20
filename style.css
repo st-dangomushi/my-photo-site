@@ -1,81 +1,114 @@
-h1{font-size: 60px;
-}
-
-
-h2{
-    font-size: 30px; 
-}
-
-
-h3{
-    font-size: 20px;
-}
-
-span{font-size: 20px;
-    font-weight:900;
-    margin:1px;
-color:#000000 ;
-;}
-
-a{
-    text-decoration: none; 
-}
-
-
-#top{
-    height: 500px; 
-    text-align: center; 
-    background-image: url("haikei2.jpeg");
-    background-size: cover; 
-}
-
-#toptexts{
-    width: 70%; 
+body {
+    color: rgb(0, 0, 0);
+    text-align: center;
     margin: 0 auto;
-    padding: 40px; 
-    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 0;
+    width: 95%; 
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 { font-size: 28px; margin: 10px 0; }
+h2 { font-size: 20px; }
+h3 { font-size: 14px; font-weight: normal; line-height: 1.6; }
+dt { font-size: 18px; font-weight: bold; margin-top: 10px; }
+span { font-size: 18px; font-weight: 900; margin: 1px; color: #000000; }
+a { text-decoration: none; }
+
+#top {
+    min-height: 400px;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("haikei2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#toptexts {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
 }
 
-
-#toptexts a{
-    padding: 7px; 
-    border: 2px dashed black; 
-    color: #555; 
-    font-weight: bold; 
-    font-size: 20px;
+#toptexts a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px dashed black;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-
-#toptexts a:hover{
-    color: black; 
+#toptexts a:hover {
+    color: black;
 }
 
-
-body {
-    color:rgb(0, 0, 0);
-    text-align:center;
-     margin: 0 auto; padding: 0;
-    width: 80%; }
-
-
-   #iroiro {
-  background-color: #fceabb;
-  background-image: linear-gradient(to bottom, #fceabb 0%, #fbdf93 31%, #fccd4d 55%, #f8b500 98%);
+#iroiro {
+    background-color: #fceabb;
+    background-image: linear-gradient(to bottom, #fceabb 0%, #fbdf93 31%, #fccd4d 55%, #f8b500 98%);
+    padding: 20px 10px;
 }
 
-    #iroiro img{border-radius:10px}
-
-
-
-#hyoso{background:linear-gradient(#7bc1ff,#0088ff,#000000 )}
-
-#hyoso {color :#ffffff;}
-
-#chuusinsou{background:#000000;
-            color:#ffffff
+#iroiro img {
+    border-radius: 10px;
+    margin: 5px;
+    width: 45%; 
 }
 
-dt {
- font-size: 20px;
+#dejikame {
+    padding: 20px 10px;
+}
+
+#dejikame img {
+    margin: 8px 0;
+    width: 90%; 
+}
+
+#hyoso {
+    background: linear-gradient(#7bc1ff, #0088ff, #000000);
+    color: #ffffff;
+    padding: 20px 10px;
+}
+
+#hyoso img {
+    margin: 8px 0;
+    width: 90%;
+}
+
+#chuusinsou {
+    background: #000000;
+    color: #ffffff;
+    padding: 30px 10px;
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 80%;
+    }
+    h1 { font-size: 60px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 20px; }
+    #toptexts a { font-size: 20px; }
+    #toptexts { width: 70%; padding: 40px; }
+    
+
+    #iroiro img { width: 250px; }
+    #dejikame img, #hyoso img { width: 500px; }
 }
