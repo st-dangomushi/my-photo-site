@@ -1,0 +1,76 @@
+h1{font-size: 60px;
+}
+
+
+h2{
+    font-size: 30px; 
+}
+
+
+h3{
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none; 
+}
+
+header ul{margin:0;
+display:flex;
+}
+
+
+#top{
+    height: 400px; 
+    padding:100px;
+    text-align: center; 
+    background-image: url("IMG_4482 2.jpeg");
+    background-size: cover; 
+}
+
+#toptexts{
+    width: 70%; 
+    margin: 0 auto;
+    padding: 40px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 20px;
+}
+
+
+
+#toptexts a{
+    padding: 7px; 
+    border: 2px dashed black; 
+    color: #555; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+
+#toptexts a:hover{
+    color: black; 
+}
+
+#main {background:rgb(255, 213, 213); }
+
+#kurame{background:#2a3e71;
+    color:rgb(255, 255, 255)
+}
+
+body {
+    color:rgb(0, 0, 0);
+    text-align:center;
+     margin: 0 auto; padding: 0;
+    width: 80%; }
+img{
+  float: left;
+}
+
+
+dt {
+ font-size: 20px;
+}
+
+
+
