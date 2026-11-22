@@ -63,7 +63,7 @@ body {
     text-align:center;
      margin: 0 auto; padding: 0;
     width: 80%; 
-background: linear-gradient(135deg,#86d1ff, #b4e6f8 0%, #cfefdd 20%, #ffdfd7 30%, #cfefdd ,#ffab61);}
+background: linear-gradient((135deg,#86d1ff, #b4e6f8 , #cfefdd , #ffdfd7 , #cfefdd ,#ffab61);}
 img{
   float: left;
 }
