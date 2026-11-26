@@ -19,7 +19,7 @@ a{
 header ul{margin:0;
 display:flex;
 }
-
+span{color:#ffaa00;}
 
 #top{
     height: 400px; 
