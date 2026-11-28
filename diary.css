@@ -21,6 +21,21 @@ display:flex;
 }
 span{color:#ffaa00;}
 
+#gold{font-size: 30px;
+  color: #dbb00b; 
+  background: linear-gradient(
+    90deg,
+    #8c7537 0%,
+    #dbb00b 45%,
+    #fde79d 70%,
+    #dbb10c 85%,
+    #bc7f04 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #top{
     height: 400px; 
     padding:100px;
